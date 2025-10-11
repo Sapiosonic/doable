@@ -22,3 +22,13 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## Some daily commands:
+
+* rails generate scaffold <routine_name_with_capitalize> <table_field_colon_data_type> (generates a scaffold).
+
+* bin/rails db:migrate (run the migrations).
+
+* bin/rails routes (check all the routes in your project).
+
+* bin/rails c (opens up the rails terminal).
