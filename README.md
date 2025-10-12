@@ -32,3 +32,9 @@ Things you may want to cover:
 * bin/rails routes (check all the routes in your project).
 
 * bin/rails c (opens up the rails terminal).
+
+* bin/rails generate controller Projects
+
+* bin/rails generate model Project name:string
+
+* bin/rails c >>> Project.create(name: "Plan a vacation")
