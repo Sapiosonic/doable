@@ -38,3 +38,5 @@ Things you may want to cover:
 * bin/rails generate model Project name:string
 
 * bin/rails c >>> Project.create(name: "Plan a vacation")
+
+* bin/rails db:drop db:create db:migrate
