@@ -1,13 +1,7 @@
 Rails.application.routes.draw do
   resources :todos
 
-  get "/projects", to: "projects#index"
-  get "/projects/new", to: "projects#new", as: "new_project"
-  get "/projects/:id", to: "projects#show", as: "project"
-  get "/projects/:id/edit", to: "projects#edit", as: "edit_project"
-  post "/projects", to: "projects#create"
-  patch "/projects/:id", to: "projects#update"
-  delete "/projects/:id", to: "projects#destroy"
+  resources :projects
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
