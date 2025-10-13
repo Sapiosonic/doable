@@ -23,6 +23,8 @@
   </head>
 
   <body>
+    <% if flash[:notice] %>
+      <p class="flash"><%= flash[:notice] %></p>
     <%= yield %>
   </body>
 </html>
