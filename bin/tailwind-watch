@@ -1,0 +1,10 @@
+#!/bin/bash
+# bin/tailwind-watch
+
+# Watch for changes in app/assets/stylesheets, app/views, and app/helpers
+watchman watch app/assets/stylesheets
+watchman watch app/views
+watchman watch app/helpers
+watchman watch app/javascript
+
+watchman -- trigger tailwind-reload '*.erb' '*.html' '*.rb' '*.css' '*.js' -- bin/rails tailwindcss:build
