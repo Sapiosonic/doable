@@ -40,3 +40,9 @@ Things you may want to cover:
 * bin/rails c >>> Project.create(name: "Plan a vacation")
 
 * bin/rails db:drop db:create db:migrate
+
+* bundle add tailwindcss-rails
+
+* bin/rails tailwindcss:install
+
+* bin/dev for serve the files having tailwind styles 
